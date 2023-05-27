@@ -1,0 +1,326 @@
+body {
+  margin: 0 auto;
+  width: 1400px;
+  font-family:'IBM Plex Mono',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.03em;
+  background-color: #000000;
+}
+
+header {
+margin-bottom: 150px;
+}
+
+footer {
+  font-family: 'Manrope';
+}
+
+ul {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.bg-image-main {
+  margin-bottom: 150px;
+  width: 1400px;
+  height: 100vh;
+  position: relative;
+  background-image: url(../resources/image-main.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.logo-nav {
+  display: inline-block;
+  position: absolute;
+  top: 36px;
+  left: 123px;
+}
+.logo {
+  margin-right: 520px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  letter-spacing: -0.11em;
+  text-transform: uppercase;
+  background-color: #000000;
+  border-radius: 100px ;
+  color: #1BFF07;
+}
+.nav {
+  float: right;
+  vertical-align: middle;
+}
+
+.nav-portfolio, .nav-competencies, .nav-services, .nav-contacts {
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav-portfolio, .nav-competencies, .nav-services {
+  margin-right: 50px;
+}
+
+.nav-portfolio:hover {
+  color: #1BFF07;
+}
+.nav-competencies:hover {
+  color: #1BFF07;
+}
+.nav-services:hover {
+  color: #1BFF07;
+}
+.nav-contacts:hover {
+  color: #1BFF07;
+}
+
+.main-block {
+  width: 920px;
+  position: absolute;
+  bottom: 30px;
+  left: 120px;
+}
+
+.description-main {
+  margin-bottom: 29px;
+  width: 430px;
+  height: 103px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+h1 {
+  width: 900px;
+  height: 290px;
+  font-size: 70px;
+  line-height: 70px;
+  color: #1BFF07;
+}
+
+.last-projects {
+  margin: 0px 125px 150px 125px;
+}
+
+h2 {
+  margin-bottom: 54px;
+  font-size: 55px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+h3 {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-bottom: 80px;
+}
+
+.project__first, .project__second, .project__third {
+  width: 1150px;
+  height: 550px;
+  top: 410px;
+  left: 50px;
+  padding-top: 410px;
+  padding-left: 50px;
+}
+.project__first {
+  background-image: url(../resources/project-realhome.png);
+}
+
+.project__second {
+  background-image: url(../resources/project-glass.png);
+}
+
+.project__third {
+  background-image: url(../resources/project-fesiyen.png);
+}
+
+.name__project {
+  margin-bottom: 5px;
+  font-size: 35px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+.details__project {
+  font-size: 30px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+button {
+  width: 582px;
+  height: 153px;
+  background: #1BFF07;
+  border-radius: 10px;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+button:hover {
+  background: #000000;
+  color:  #1BFF07;
+  border: 1px solid  #1BFF07;
+}
+
+.competencies {
+  margin: 0px 125px 150px 125px;
+}
+
+.competence__block {
+  width: 1048px;
+  height: 247px;
+}
+
+.competence__name {
+  font-size: 35px;
+  line-height: 46px;
+  color: #1BFF07;
+}
+.competence__description {
+  width: 778px;
+  height: 145px;
+  font-size: 22px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.competence__first:before {
+  content: url(../resources/logo-html.png)
+}
+
+.competence__second:before {
+  content: url(../resources/logo-js.png)
+}
+
+.competence__third:before {
+  content: url(../resources/logo-libraries.png)
+}
+
+.competence__fourth:before {
+  content: url(../resources/logo-adaptive-layout.png)
+}
+
+.competence__first {
+  margin-bottom: 60px;
+  width: 100%;
+  height: 233px;
+}
+
+.tasks {
+  margin: 0px 125px 150px 125px;
+}
+
+.range-of-tasks {
+  margin-bottom: 74px;
+  height: 92px;
+  font-size: 35px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+.task {
+  margin-bottom: 105px;
+  width: 1150px;
+  height: 483px ;
+}
+.task__block {
+  padding-top: 40px;
+  padding-left: 40px;
+  width: 1150px;
+  height: 283px;
+  background: #191C19;
+  border-radius: 30px;
+}
+
+.task__name {
+  width: 1048px;
+  height: 72px;
+  font-size: 55px;
+  line-height: 72px;
+  color: #1BFF07;
+}
+.task__description {
+  width: 749px;
+  height: 116px;
+  font-size: 22px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.contacts {
+  margin-bottom: 150px;
+  width: 1400px;
+  height: 717px;
+  position: relative;
+  background: #191C19;
+  border-radius: 30px;
+}
+.developer {
+  position: absolute;
+  left: 672px;
+}
+.block-contacts {
+  position: absolute;
+  top: 320px;
+  left: 125px ;
+  width: 320px;
+  height: 308px;
+  color: #FFFFFF;
+}
+.communication {
+  margin-bottom: 28px;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.block-communication {
+  
+  font-size: 60px;
+  line-height: 60px;
+}
+.instagram:hover {
+  color: #1BFF07;
+}
+.telegram:hover {
+  color: #1BFF07;
+}
+.mail:hover {
+  color: #1BFF07;
+}
+.instagram, .telegram {
+  margin-bottom:20px;
+}
+.mail {
+  margin-bottom: 0px;
+}
+.wrapper-white-footer {
+  width: 1400px;
+  height: 289px;
+  position: relative;
+  border-radius: 30px 0px 0px 0px;
+  background-color: #FFFFFF;
+}
+.name-project {
+  width: 512px;
+  height: 30px;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  position: absolute;
+  top: 76px;
+  left: 125px;
+}
+.copyright {
+  width: 245px;
+  height: 27px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  position: absolute;
+  top: 172px;
+  left: 125px;
+}
+
